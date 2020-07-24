@@ -1,21 +1,23 @@
-body {
-    background-color: cornflowerblue;
+body {background-color: turquoise;}
+p {background-color: rgb(100, 200, 100);} 
+ul {background-color: rgb(243, 79, 69); }  
+img {background-color: rgb(243, 38, 150); }  
+
+@font-face {
+  font-family: myCustomFont;
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
-}
-
-h2 {
-  color: firebrick;
+  font-family: myCustomFont2;
+  src: url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap');
 }
 
 ul {
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
+  font-family: myCustomFont;
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+  font-family: myCustomFont2;
 }
+
