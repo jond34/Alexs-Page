@@ -1,0 +1,23 @@
+body {background-color: turquoise;}
+p {background-color: rgb(100, 200, 100);} 
+ul {background-color: rgb(243, 79, 69); }  
+img {background-color: rgb(243, 38, 150); }  
+
+@font-face {
+  font-family: myCustomFont;
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+}
+
+@font-face {
+  font-family: myCustomFont2;
+  src: url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap');
+}
+
+ul {
+  font-family: myCustomFont;
+}
+
+p {
+  font-family: myCustomFont2;
+}
+
